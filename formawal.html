@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-silakan isi disini
-
-</body>
-</html>
+<form action="proses.php" method="POST" enctype="multipart/form-data">
+    <!-- Nama :<input type="text" name="name"><br><br> -->
+    Pilih Hobi : <br><br>
+    Membaca         <input type="checkbox" name="hobby[]" value="Membaca"><br>
+    Dengar Musik    <input type="checkbox" name="hobby[]" value="Dengar Musik"><br>
+    Traveling       <input type="checkbox" name="hobby[]" value="Traveling"><br>
+    Ngegame         <input type="checkbox" name="hobby[]" value="Ngegame"><br>
+    Nonton          <input type="checkbox" name="hobby[]" value="Nonton"><br><br>
+    <input type="file" name="file" id="file"><br><br>
+    <input type="submit" value="submit">
+</form>
